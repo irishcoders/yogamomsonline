@@ -31,7 +31,7 @@
         </nav>
     </header>
     <section class="form-section">
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form" class="signup-form">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
             <h2>Fill out the form below to join us! <i class="fas fa-heartbeat"></i></h2>
             <label for="fname">First Name</label>
             <input id="fname" class="text-input" name="first_name" type="text" placeholder="Enter your first name"
@@ -45,27 +45,28 @@
             <input id="email" class="text-input" name="email_address" type="email"
                 placeholder="Enter your email address" required><br>
 
-            <label for="password" class="text-input">Enter your desired password:</label>
+            <label for="password">Enter your desired password:</label>
             <input id="password" type="password" name="password1" placeholder="Enter Desired Password" required><br>
 
-            <label for="password2" class="text-input">Re-enter your password:</label>
+            <label for="password2">Re-enter your password:</label>
             <input id="password2" type="password" name="password2" placeholder="Confirm Password" required>
             <br>
 
-            <p>What is your Yoga knowledge level?:</p>
-            <label for="ftime">First Time</label>
-            <input type="radio" id="ftime" name="experience-level" value="first_time" required>
-            <label for="experienced">Experienced</label>
-            <input type="radio" id="experienced" name="experience-level" value="experienced_user" required>
-            <label for="professional">Professional</label>
-            <input type="radio" id="professional" name="experience-level" value="professional_user" required>
-            <br>
+            <div id="user-experience">
+                <p>What is your Yoga knowledge level?:</p>
+                <label for="ftime">First Time</label>
+                <input type="radio" id="ftime" name="experience-level" value="first_time" required>
+                <label for="experienced">Experienced</label>
+                <input type="radio" id="experienced" name="experience-level" value="experienced_user" required>
+                <label for="professional">Professional</label>
+                <input type="radio" id="professional" name="experience-level" value="professional_user" required>
+            </div>
 
             <fieldset>
                 <legend>Feedback:</legend>
-                <label for="feedback" class="text-input">How can we improve your experience with us?</label>
+                <label for="feedback" class="text-input">How can we improve your experience with us?:</label>
                 <br>
-                <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+                <textarea id="feedback" rows="4" cols="87" class="text-input" name="feedback"></textarea>
             </fieldset>
 
             <input class="join-button" type="submit" value="Join YogaMoms Online">
@@ -89,6 +90,7 @@
                         class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
+        <p>Copyright © Codeinstitute Project1 for Oluwaseyi Babalola 2023</p>
     </footer>
 
     <!-- Font Awesome link-->

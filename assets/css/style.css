@@ -279,6 +279,10 @@ footer {
     color: #3a3a3a;
 }
 
+footer p {
+    text-align: center;
+}
+
 /* Gallery photo section */
 
 #photos {
@@ -296,10 +300,10 @@ footer {
 
 .form-section {
     clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background: url('../images/yoga-full-screen3.jpeg');
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 1000px;
 }
 
 .signup-form {
@@ -312,8 +316,7 @@ footer {
     padding: 30px;
 }
 
-.signup-form>h2,
-p {
+.signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -329,7 +332,7 @@ p {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: none;
 }
 
 .join-button {
@@ -343,6 +346,25 @@ p {
     display: block;
 }
 
+.reset-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    font-size: 100%;
+    background-color: white;
+    color: black;
+}
+
+.join-button,
+.reset-button {
+    display: inline-block;
+}
+
+#user-experience {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
@@ -353,9 +375,7 @@ legend {
     text-transform: uppercase;
 }
 
-text-area {
-    max-width: 350px;
-}
+
 
 
 /* Media Queries (For page size across differen screen types */
