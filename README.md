@@ -1,5 +1,8 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#YogaMoms Online
 
+##YogaMoms Online is a site that with the intention to encourage moms of all ages to meet up for Yoga sessions Online on a regular basis. The site will be targeted towards moms who are looking for a way to keep healthy through Yoga and also looking to meet people of mutual interests. YogaMoms Online will be very helpful in helping its audience know the time and online venue for upcoming Yoga sessions.
+--------------
 Welcome,
 
 This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
