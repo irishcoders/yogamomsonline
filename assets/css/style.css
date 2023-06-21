@@ -9,8 +9,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
-    background-image: url('../images/pebbles.jpeg') no-repeat center center;
+    color: #33333a;
     background-color: darksalmon;
 }
 
@@ -21,12 +20,12 @@ h2 {
     font-family: 'Playfair Display', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #333333;
 }
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 250%;
     margin-left: 30px;
 }
 
@@ -186,7 +185,7 @@ hr {
 
 }
 
-.right-pane-heading p {
+.right-pane-heading>p {
     text-align: right;
 }
 
@@ -197,10 +196,11 @@ hr {
     border-color: darksalmon;
     border-width: 1px;
     margin: 0 auto;
+    padding-top: 0;
 }
 
 #center-cover-bg {
-    background: url(../images/faceless_yoga.jpeg);
+    background: url(../images/black_woman_yoga.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -221,7 +221,7 @@ hr {
 }
 
 #center-cover-bg3 {
-    background: url(../images/prego_doing_yoga.webp);
+    background: url(../images/woman_yoga_mat.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -277,4 +277,97 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+
+/* Media Queries (For page size across differen screen types */
+
+/* Code below is for larger to medium screen size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #yoga-reason {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #reason {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-pane,
+    #right-pane {
+        width: 100%;
+        float: left;
+        margin: 0;
+    }
+
+    #center-pane {
+        width: 100%;
+        clear: both;
+        float: left;
+        padding: 0;
+    }
+
+    #meetings>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* Media query for medium screen size of 950px wide and below */
+
+@media screen and (max-wdith: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #yoga-reason {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-pane-heading,
+    .right-pane-heading {
+        width: inherit;
+    }
+
+    .left-pane-heading h2,
+    .right-pane-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-pane-heading p,
+    .right-pane-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* Media screen for small screen sizes 800px wide and down */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
