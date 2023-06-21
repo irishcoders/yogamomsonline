@@ -1,7 +1,16 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-#YogaMoms Online
+#Yoga-Moms Online
 
-##YogaMoms Online is a site that with the intention to encourage moms of all ages to meet up for Yoga sessions Online on a regular basis. The site will be targeted towards moms who are looking for a way to keep healthy through Yoga and also looking to meet people of mutual interests. YogaMoms Online will be very helpful in helping its audience know the time and online venue for upcoming Yoga sessions.
+##Yoga-Moms Online is a site that with the intention to encourage moms of all ages to meet up for Yoga sessions Online on a regular basis. The site will be targeted towards moms who are looking for a way to keep healthy through Yoga and also looking to meet people of mutual interests. YogaMoms Online will be very helpful in helping its audience know the time and online venue for upcoming Yoga sessions and other future Yoga Events.
+
+#Features
+Yoga-Moms Online features different variety of toolbars that can help users easily navigate through the site very easily. It is also semantically structed to help visually impaired users find their way through out their visit to the website.
+
+## Navigation Bar
+
+#Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery, Meeting Times and Join Us (signup) page and is identical in each page to allow for easy navigation.
+
+This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 --------------
 Welcome,
 
