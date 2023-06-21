@@ -67,7 +67,22 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - From the source section drop-down menu, select the Master Branch;
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - (https://code-institute-org.github.io/love-running-2.0/index.html)
+
+##Credits
+
+Content
+The fonts for the Home page was taken from Google Fonts
+Instructions on how to implement form validation on the Sign Up page was taken from Love Running Final Challenge
+The icons in the Reasons section, footer and Join Us pages were taken from Font Awesome
+Website inspiration was taken from CodeInstitute Love Running Tutorials. 
+
+Media
+The photos used on the home and Join Us page are from PEXELS website (www.pexels.com)
+The images used for the gallery page were also mostly taken from PEXELS and the rest from iSTOCKPHOTO at www.istockphoto.com
+
+
+
 
 
 
