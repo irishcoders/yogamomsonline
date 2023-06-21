@@ -10,6 +10,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    background-image: url('../images/pebbles.jpeg') no-repeat center center;
+    background-color: darksalmon;
 }
 
 /* heading and logo */
@@ -59,10 +61,10 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero-image and cover text */
+/* head-image and cover text */
 
-#hero-outer {
-    height: 600px;
+#head-container {
+    height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -72,17 +74,18 @@ h2 {
 #cover-text,
 #cover-text h2 {
     color: #fff;
+    text-align: center;
 }
 
-#hero-image {
-    height: 600px;
+#head-image {
+    height: 500px;
     width: 100%;
-    background: url(../images/mom_and_children_doing_yoga.jpeg) no-repeat center center;
+    background: url(../images/stones.jpeg) no-repeat center center;
 
 
-    /* This animates the zoom effect for the hero-image */
+    /* This animates the zoom effect for the head-image */
 
-    animation-name: hero-zoom;
+    animation-name: head-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 
@@ -90,7 +93,7 @@ h2 {
 
 /* this creates the zoom effect for the hero image */
 
-@keyframes hero-zoom {
+@keyframes head-zoom {
     from {
         transform: scale(1);
     }
@@ -101,19 +104,177 @@ h2 {
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 100%;
     font-family: 'Playfair Display', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
 
     width: 300px;
     height: 200px;
-    padding-top: 40px;
+    padding-top: 45px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(241, 109, 107, 0.7);
     bottom: 30px;
     right: 150px;
 
     position: absolute;
+}
+
+/* Yoga-reason section */
+
+#yoga-reason {
+    height: 600px;
+    clear: both;
+}
+
+#reason {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+}
+
+#left-pane {
+    padding-top: 20px;
+    width: 33%;
+    float: left;
+}
+
+#right-pane {
+    padding-top: 20px;
+    width: 33%;
+    float: right;
+}
+
+#center-pane {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-pane-heading {
+    width: 60%;
+    float: right;
+    line-height: 15px;
+    clear: both;
+    margin-bottom: 52px;
+}
+
+.right-pane-heading {
+    width: 60%;
+    float: left;
+    line-height: 15px;
+    clear: both;
+    margin-bottom: 52px;
+    margin-top: 8px;
+
+}
+
+.left-pane-heading h2 {
+    font-size: 130%;
+
+}
+
+.right-pane-heading h2 {
+    text-align: right;
+    font-size: 130%;
+
+}
+
+.right-pane-heading p {
+    text-align: right;
+}
+
+#center-container {
+    width: 340px;
+    height: 200px;
+    border-style: solid;
+    border-color: darksalmon;
+    border-width: 1px;
+    margin: 0 auto;
+}
+
+#center-cover-bg {
+    background: url(../images/faceless_yoga.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 340px;
+    height: 200px;
+    overflow: hidden;
+
+}
+
+#center-cover-bg2 {
+    background: url(../images/mom_child_cucumber_yoga.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 340px;
+    height: 200px;
+    overflow: hidden;
+}
+
+#center-cover-bg3 {
+    background: url(../images/prego_doing_yoga.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 340px;
+    height: 200px;
+    overflow: hidden;
+}
+
+/* Meeting times */
+#meetings {
+    background-image: url(../images/darkcloud_with_moon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#meetings div {
+    color: #fafafa;
+    background-color: rgb(0, 0, 0, .6);
+    width: 50%;
+    height: 150px;
+    float: left;
+    padding: 25px 0 0 10px;
+    text-align: center;
+    border: 2px solid darksalmon;
+    box-sizing: border-box;
+}
+
+#meetings h2 {
+    color: #fafafa;
+    text-align: center;
+}
+
+/* footer section */
+
+footer {
+    height: 100px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
