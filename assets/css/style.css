@@ -426,7 +426,7 @@ legend {
 
 /* Media query for medium screen size of 950px wide and below */
 
-@media screen and (max-wdith: 950px) {
+@media screen and (max-width: 950px) {
     #menu {
         clear: left;
         float: left;
