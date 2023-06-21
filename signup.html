@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yoga Online for Moms">
+    <meta name="keywords" content="yoga online, yoga for moms, yoga, moms, new moms, wellness, fitness">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Yogamoms Online</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">YogaMoms Online</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="signup.html" class="active">Join Now</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form" class="signup-form">
+            <h2>Fill out the form below to join us! <i class="fas fa-heartbeat"></i></h2>
+            <label for="fname">First Name</label>
+            <input id="fname" class="text-input" name="first_name" type="text" placeholder="Enter your first name"
+                required><br>
+
+            <label for="lname">Last Name</label>
+            <input id="lname" class="text-input" name="last_name" type="text" placeholder="Enter your last name"
+                required><br>
+
+            <label for="email">Email Address</label>
+            <input id="email" class="text-input" name="email_address" type="email"
+                placeholder="Enter your email address" required><br>
+
+            <label for="password" class="text-input">Enter your desired password:</label>
+            <input id="password" type="password" name="password1" placeholder="Enter Desired Password" required><br>
+
+            <label for="password2" class="text-input">Re-enter your password:</label>
+            <input id="password2" type="password" name="password2" placeholder="Confirm Password" required>
+            <br>
+
+            <p>What is your Yoga knowledge level?:</p>
+            <label for="ftime">First Time</label>
+            <input type="radio" id="ftime" name="experience-level" value="first_time" required>
+            <label for="experienced">Experienced</label>
+            <input type="radio" id="experienced" name="experience-level" value="experienced_user" required>
+            <label for="professional">Professional</label>
+            <input type="radio" id="professional" name="experience-level" value="professional_user" required>
+            <br>
+
+            <fieldset>
+                <legend>Feedback:</legend>
+                <label for="feedback" class="text-input">How can we improve your experience with us?</label>
+                <br>
+                <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+            </fieldset>
+
+            <input class="join-button" type="submit" value="Join YogaMoms Online">
+            <input class="reset-button" type="reset" value="Clear Form">
+        </form>
+    </section>
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https:www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https:www.youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i
+                        class="fa-brands fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https:www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- Font Awesome link-->
+    <script src="https://kit.fontawesome.com/9f28b87073.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
