@@ -20,7 +20,7 @@ h2 {
     font-family: 'Playfair Display', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #333333;
+    color: #33333a;
 }
 
 #logo {
@@ -53,11 +53,11 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #33333a;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #33333a;
 }
 
 /* head-image and cover text */
@@ -74,6 +74,10 @@ h2 {
 #cover-text h2 {
     color: #fff;
     text-align: center;
+}
+
+#cover-text h2 {
+    color: #33333a;
 }
 
 #head-image {
@@ -151,7 +155,7 @@ h2 {
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid #33333a;
     width: 100%;
     margin: 5px 0;
 }
@@ -276,7 +280,7 @@ footer {
     font-size: 200%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #33333a;
 }
 
 footer p {
@@ -332,7 +336,7 @@ footer p {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: darksalmon;
 }
 
 .join-button {
@@ -367,7 +371,7 @@ footer p {
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: darksalmon;
 }
 
 legend {
