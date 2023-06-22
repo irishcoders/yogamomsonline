@@ -196,8 +196,8 @@ hr {
 }
 
 #center-container {
-    width: 340px;
-    height: 200px;
+    width: 330px;
+    min-height: 200px;
     border-style: solid;
     border-color: darksalmon;
     border-width: 1px;
@@ -207,31 +207,23 @@ hr {
 
 #center-cover-bg {
     background: url(../images/black_woman_yoga.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 340px;
-    height: 200px;
-    overflow: hidden;
 
 }
 
 #center-cover-bg2 {
     background: url(../images/mom_child_cucumber_yoga.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 340px;
-    height: 200px;
-    overflow: hidden;
+
 }
 
 #center-cover-bg3 {
     background: url(../images/woman_yoga_mat.webp);
+
+}
+#center-container .center-img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 340px;
+    width: 330px;
     height: 200px;
     overflow: hidden;
 }
