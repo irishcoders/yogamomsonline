@@ -219,6 +219,7 @@ hr {
     background: url(../images/woman_yoga_mat.webp);
 
 }
+
 #center-container .center-img {
     background-repeat: no-repeat;
     background-size: cover;
@@ -251,7 +252,8 @@ hr {
     box-sizing: border-box;
 }
 
-#meetings h2, #meetings p {
+#meetings h2,
+#meetings p {
     color: #fafafa;
     text-align: center;
     background-color: rgba(60, 60, 60, 0.6);
