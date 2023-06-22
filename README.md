@@ -1,10 +1,9 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-#Yoga-Moms Online
+# Yoga4Moms Online
 
-##Yoga-Moms Online is a site that with the intention to encourage moms of all ages to meet up for Yoga sessions Online on a regular basis. The site will be targeted towards moms who are looking for a way to keep healthy through Yoga and also looking to meet people of mutual interests. YogaMoms Online will be very helpful in helping its audience know the time and online venue for upcoming Yoga sessions and other future Yoga Events.
+##Yoga4Moms Online is a site that with the intention to encourage moms of all ages to meet up for Yoga sessions Online on a regular basis. The site will be targeted towards moms who are looking for a way to keep healthy through Yoga and also looking to meet people of mutual interests. YogaMoms Online will be very helpful in helping its audience know the time and online venue for upcoming Yoga sessions and other future Yoga Events.
 
 #Features
-Yoga-Moms Online features different variety of toolbars that can help users easily navigate through the site very easily. It is also semantically structed to help visually impaired users find their way through out their visit to the website.
+Yoga4Moms Online features different variety of toolbars that can help users easily navigate through the site very easily. It is also semantically structed to help visually impaired users find their way through out their visit to the website.
 
 ## Navigation Bar
 
@@ -15,9 +14,9 @@ This section will allow the user to easily navigate from page to page across all
 ##The landing page image
 
 The landing includes a photograph with text overlay to allow the user to see exactly what the site does and to which audience it is meant for.
-This section introduces the user to Yoga-Mom Online with a beautiful animation to catch users attention
+This section introduces the user to Yoga4Mom Online with a beautiful animation to catch users attention
 
-##Reasons To Join 'Yoga-Mom Online' Section
+##Reasons To Join 'Yoga4Mom Online' Section
 
 The 'Reasons' section will allow the user to see the benefits of participating in joining our Yoga online community, as well as the great benefits of Yoga overall.
 This user will see the value of joining Yoga sessions during meet up times and also the value of signing up to the website so as not to miss out on future sessions and health tips. This should encourage the user to consider Yoga as their form of exercise.
@@ -42,7 +41,7 @@ This section is valuable to the user as they will be able to easily identify the
 
 ##The Join Us Page
 
-This page will allow the user to get registered to Yoga-Moms Online and to start their Yoga fitness journey with our online community. 
+This page will allow the user to get registered to Yoga4Moms Online and to start their Yoga fitness journey with our online community. 
 The user will be have the option to state their level of knowledge with Yoga (if new, experienced or at a pro level).
 The user would also have the option to state if they would like to receive occational tips about mindfulness and more of Yoga health benefits. 
 The user will also have the option to state if they would like to be notified of new meeting times and other future Yoga events. 
