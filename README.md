@@ -1,105 +1,97 @@
 # Yoga4Moms Online
 
-## Yoga4Moms Online is a site that with the intention to encourage moms of all ages to meet up for Yoga sessions Online on a regular basis. The site will be targeted towards moms who are looking for a way to keep healthy through Yoga and also looking to meet people of mutual interests. YogaMoms Online will be very helpful in helping its audience know the time and online venue for upcoming Yoga sessions and other future Yoga Events.
+Yoga4Moms Online is a website designed to encourage moms of all ages to participate in online Yoga sessions. The platform aims to help moms maintain their health through Yoga while providing a space to connect with like-minded individuals. Yoga4Moms Online offers information about upcoming Yoga sessions, online events, and more.
 
-![Responsive site pic](../images/doc/responsive_design_sc.png)
+![Yoga4MomsOnline](assets/images/doc/yoga4mompage.png)
 
 ## Features
 
-    Yoga4Moms Online features different variety of toolbars that can help users easily navigate through the site very easily. It is also semantically structured to be usable by visually impaired users who visits the website.
+### Navigation Bar
 
-### Existing Features
+![Navigation Bar](assets/images/doc/y4m_navbar.png)
 
-- Navigation Bar
+- The responsive navigation bar appears on all pages, allowing easy access to the Home page, Gallery, Meeting Times, and Join Us (signup) page.
+- Seamless navigation enhances the user experience across devices.
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery, Meeting Times and Join Us (signup) page and is identical in each page to allow for easy navigation.
+### Landing Page
 
-    - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+![Landing Page](assets/images/doc/y4mlanding_mark.png)
 
-    ![nav bar](../images/doc/nav_bar.png)
+- The landing page features an engaging photograph with text overlay, effectively conveying the purpose and target audience of the website.
+- A captivating animation introduces users to Yoga4Moms Online.
 
-- The landing page image
+### Reasons to Join 'Yoga4Mom Online' Section
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly what the site does and to which audience it is meant for.
-    - This section introduces the user to Yoga4Mom Online with a beautiful animation to catch users attention
-      ![landing page](../images/doc/landing_mark.png)
+![Reasons to Engage](assets/images/doc/y4mreasons_section.png)
 
-- Reasons To Join 'Yoga4Mom Online' Section
+- This section highlights the benefits of joining the Yoga online community, emphasizing the value of Yoga for overall well-being.
+- Compelling images depict moms of different ages practicing Yoga, inspiring users to consider Yoga as their fitness choice.
 
-  - The 'Reasons' section will allow the user to see the benefits of participating in joining our Yoga online community, as well as the great benefits of Yoga overall.
-    - This user will see the value of joining Yoga sessions during meet up times and also the value of signing up to the website so as not to miss out on future sessions and health tips. This should encourage the user to consider Yoga as their form of exercise.
-    - A set of beautiful images have been displayed showing different moms of different age doing Yoga. This should motivate the user to also consider Yoga as their form of exercise.
-      ![reasons section](../images/doc/reasons_section.png)
+### Meeting Times Section
 
-- Meeting Times section
+![Meeting Times](assets/images/doc/y4m_meetingtimes.png)
 
-  - This section will allow the user to see exactly when the meetings will happen, where they will be located and how long the session will be go on for on each occassion.
-    - This section will be updated as these times change to keep the user up to date.
-      ![Meeting times](../images/doc/meeting_times.png)
+- Users can easily access information about upcoming meeting times, locations, and session durations.
+- The section is regularly updated to keep users informed.
 
-- The Footer - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. - The footer is valuable to the user as it encourages them to keep connected via social media.
-  The footer also displays the copyright year for the site thereby updating the user that the content is current and valid.
-  ![footer](../images/doc/footer_sc.png)
+### Gallery
 
-- Gallery
+![Gallery](assets/images/doc/y4m_gallery.png)
 
-  - The gallery displays a total of twenty(20) images which should provide the user with supporting images and to have a visual idea of how some of the sessions and other hosted Yoga events look like from multiple walks of life.
-    - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
-      ![gallery](../images/doc/gallery_sc.png)
+- The gallery showcases a diverse collection of images, providing users with a visual insight into Yoga sessions and events.
+- Users gain a better understanding of the organization's offerings.
 
-- The Join Us Page
-  - This page will allow the user to get registered to Yoga4Moms Online and to start their Yoga fitness journey with our online community.
-    - The user will be have the option to state their level of knowledge with Yoga (if new, experienced or at a pro level).
-    - The user would also have the option to state if they would like to receive occational tips about mindfulness and more of Yoga health benefits.
-    - The user will also have the option to state if they would like to be notified of new meeting times and other future Yoga events.
-    - The user will be asked to submit their full name, email address and choose a desired password to login into their account when next user visits the website.
-      ![gallery](../images/doc/join_us.png)
+### Join Us Page
+
+![Join Us Page](assets/images/doc/y4m_join_us.png)
+
+- Users can register for Yoga4Moms Online, specifying their Yoga experience level and preferences.
+- The page captures essential user details for account creation.
+
+### Footer
+
+![Footer](assets/images/doc/y4m_footer.png)
+
+- The footer features links to relevant social media platforms, facilitating easy interaction and connection.
+- Copyright information indicates the site's currency and validity.
 
 ## Features Left to Implement
 
-- live chat to users that need immediate help
+- Live chat support for users seeking immediate assistance.
 
 ## Testing
 
-- I tested Nav links to make sure each navigations point to the right source, thereby making is easy for users to navigate without using the back button
-  - I tested the form GET and POST links and it works
-  - I debugged the code using the inspect element, I successfully figured out to set the min-width of the center box property;
-  - the page has been tested across all device sizes for responsiveness and it works.
-  - I set the gallery to have a mansory picture style and I tested this severally to make sure there are no loose margin or mardin
-  - I tested that all links to the footer elements points to the correct sources.
-  - Overall, the site has been debugged and tested through all level of testing, both in the UX/UI, color grading for clear redability, font accessibility across devices and responsiveness to different screen sizes and shapes.
+- Tested navigation links to ensure accurate routing and smooth user experience.
+- Successfully tested form GET and POST functionality.
+- Debugged code using inspect element to fine-tune styling.
+- Conducted extensive responsiveness testing across various devices.
+- Tested using LightHouse to determine Assesibility, Performance and SEO.
+- Implemented masonry layout for the gallery and tested for consistency.
+- Verified correct linkage of footer elements to social media sites.
 
-## Validator Testing
+## Debugging
 
-- HTML
-  - No errors were returned when passing through the official W3C validator
-- CSS
-  - No errors were found when passing through the official (Jigsaw) validator
-
+- HTML code was validated using the [W3C validator](<https://validator.w3.org/nu/#textarea>) and passed without errors.
+- CSS code was validated using the [Jigsaw validator](<https://jigsaw.w3.org/css-validator/validator>) and found to be error-free.
+  
 ## Unfixed Bugs
+
+- Ongoing work to refine media queries for optimal homepage header display on smaller and medium screens.
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab;
-  - From the source section drop-down menu, select the Master Branch;
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  The website was deployed to GitHub Pages using the following steps:
 
-The live link can be found here - (https://irishcoders.github.io/yogamomsonline/)
+  1. Navigate to the GitHub repository's Settings tab.
+  2. Select the Master Branch as the source for deployment.
+  3. The deployment will be confirmed with a ribbon display.
+
+Visit the live site here: [Yoga4Moms Online](https://irishcoders.github.io/yogamomsonline/)
 
 # Credits
 
-- The fonts for the Home page was taken from Google Fonts
-- Instructions on how to implement form validation on the Sign Up page was taken from Love Running Final Challenge
-
-## Content
-
-- The icons in the Reasons section, footer and Join Us pages were taken from Font Awesome
-  Website inspiration was taken from CodeInstitute Love Running Tutorials.
-
-## Media
-
-- The photos used on the home and Join Us page are from PEXELS website (www.pexels.com)
-- The images used for the gallery page were also mostly taken from PEXELS and the rest from iSTOCKPHOTO at www.istockphoto.com
-
----
+- Fonts from Google Fonts were used for the Home page typography.
+- Form validation guidance was sourced from the Love Running Final Challenge.
+- Icons in the Reasons section, footer, and Join Us pages were provided by Font Awesome.
+- The website design was inspired by CodeInstitute's Love Running Tutorials.
+- Images on the home and Join Us pages were sourced from PEXELS ([www.pexels.com](<https://www.pexels.com>)) and iSTOCKPHOTO ([www.istockphoto.com](https://www.istockphoto.com)).

@@ -1,4 +1,4 @@
-@import url('https: //fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display+SC&display=swap');
 
 * {
     margin: 0;
@@ -25,14 +25,14 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 250%;
+    font-size: 2rem;
     margin-left: 30px;
 }
 
 /* Navigation area */
 
 #menu {
-    font-size: 110%;
+    font-size: 1rem;
     letter-spacing: 4px;
 }
 
@@ -238,6 +238,7 @@ hr {
     width: 100%;
     height: auto;
     overflow: hidden;
+    padding: 10px 0 10px 0;
 }
 
 #meetings div {
@@ -257,9 +258,9 @@ hr {
     color: #fafafa;
     text-align: center;
     background-color: rgba(60, 60, 60, 0.6);
-    border: 1px solid darksalmon;
     border-right: 1px;
 }
+
 
 /* footer section */
 
@@ -314,6 +315,7 @@ footer p {
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
+    max-height: fit-content;
     position: absolute;
     left: 10%;
     padding: 30px;
@@ -391,6 +393,11 @@ legend {
 /* Code below is for larger to medium screen size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
+
+    #logo {
+        max-width: fit-content;
+    }
+
     #yoga-reason {
         width: 65%;
         height: 1200px;
@@ -469,11 +476,96 @@ legend {
     #photos {
         column-count: 3;
     }
+
+    /* Gallery form styles */
+    .form-section {
+        padding: 10px;
+    }
+
+    .signup-form {
+        left: 5%;
+        max-width: 90%;
+    }
+
+    .text-input {
+        height: 30px;
+        margin: 5px 0 10px 0;
+        padding: 5px;
+    }
+
+    .join-button,
+    .reset-button {
+        padding: 12px 24px;
+        font-size: 90%;
+    }
+
 }
 
 /* Media screen for small screen sizes 800px wide and down */
 @media screen and (max-width: 800px) {
     #photos {
         column-count: 2;
+    }
+
+    .signup-form {
+        margin: 30px auto 0;
+        left: 2%;
+        max-width: 94%;
+    }
+
+    .text-input {
+        margin: 3px 0 8px 0;
+        padding: 5px;
+    }
+
+    .join-button,
+    .reset-button {
+        padding: 10px 20px;
+        font-size: 80%;
+    }
+
+}
+
+/* Additional media query for smaller screens within the form media query */
+@media screen and (max-width: 600px) {
+    .signup-form {
+        margin: 50px auto 0;
+        left: 5%;
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    .text-input {
+        height: 30px;
+        margin: 5px 0 10px 0;
+        padding: 5px;
+    }
+
+    .join-button,
+    .reset-button {
+        padding: 12px 24px;
+        font-size: 90%;
+    }
+
+    #menu,
+    #logo {
+        text-align: center;
+        display: block;
+    }
+
+    #logo {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #menu li {
+        font-size: 55%;
+        margin: 0 5px;
+    }
+
+    #reason {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 150%;
     }
 }
