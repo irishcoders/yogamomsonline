@@ -83,7 +83,7 @@ Yoga4Moms Online is a website designed to encourage moms of all ages to particip
   
 ## Unfixed Bugs
 
-- Ongoing work to further refine media queries for optimal homepage header display on smaller and medium screens.
+- Ongoing work to further refine logo and menu nav media queries for optimal homepage header display on smaller and medium screens.
 
 ## Deployment
 
