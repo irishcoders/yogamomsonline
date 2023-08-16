@@ -65,7 +65,7 @@ Visit the live site here: [Yoga4Moms Online](https://irishcoders.github.io/yogam
 
 - Tested navigation links to ensure accurate routing and smooth user experience.
 - Confirmed that the header, Reasons To Join, Meeting Times and Join Us page texts are all readable and easy to understand.
-- Tested the website pages across different platforms like Chrome, Firefox and Safari.
+- Tested and confirmed website runs correctly across different platforms like Chrome, Firefox and Safari.
 - Conducted extensive responsiveness testing across various devices using the devtools device toolbar and confirmed that it works well across various devices.
 - Tested using LightHouse to determine Assesibility, Performance and SEO.
 - Implemented masonry layout for the gallery and tested for consistency.
